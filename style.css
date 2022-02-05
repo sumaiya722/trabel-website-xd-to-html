@@ -167,6 +167,19 @@ nav ul ul ul li:hover ul {
     left: 140px;
     top: 0;
 }
+.connect_btn{
+    width: 200px;
+  height: 70px;
+  border-radius: 40px;
+  background-color: orange;
+  border: 2px solid burlywood;
+  outline: none;
+  font-size: 16px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
 
 /* ======================
 banner csc
