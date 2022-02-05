@@ -1,0 +1,151 @@
+@media only screen and (max-width: 992px) {
+    #menu_toggler {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .connect {
+        display: none;
+    }
+
+    .blogs_container {
+        flex-wrap: wrap;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .search_content {
+        flex-wrap: wrap;
+        max-width: 800px;
+        padding: 6px;
+        border-radius: 5px;
+        margin: 30px auto;
+    }
+
+    .destination_menu {
+        flex-wrap: wrap;
+        margin: 0 30px;
+    }
+
+    .destination_menu li {
+        padding: 10px 15px;
+    }
+
+    .destination {
+        flex-wrap: wrap;
+    }
+
+    .destination_box {
+        width: 390px;
+        height: 480px;
+        margin: 10px 0;
+
+    }
+
+    .blogs_container {
+        flex-wrap: wrap;
+        gap: 2%;
+
+
+    }
+
+    .left_blogs h2 {
+        padding: 80px;
+        font-size: 23px;
+        max-width: 550px;
+    }
+
+    .right_top_blog h3 {
+        padding: 70px 0;
+        font-size: 20px;
+
+    }
+
+    .right_bottom_blog h3 {
+        padding: 70px 0;
+        font-size: 20px;
+    }
+
+    .client-section {
+        flex-wrap: wrap;
+    }
+
+    .inner_footer {
+        flex-wrap: wrap;
+        margin-top: 15px;
+        background-image: linear-gradient(to top, rgb(219, 221, 221), rgba(141, 190, 247, 0.863));
+    }
+
+    .inner_footer ul {
+        flex-wrap: wrap;
+        padding: 10px 10px;
+
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .search_content {
+        flex-wrap: wrap;
+        max-width: 800px;
+        padding: 6px;
+        border-radius: 5px;
+        margin: 30px auto;
+    }
+
+    .inner_about {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .destination_menu {
+        flex-wrap: wrap;
+        margin: 0 20px;
+    }
+
+    .destination_menu li {
+        padding: 5px 10px;
+    }
+
+    .destination {
+        flex-wrap: wrap;
+    }
+
+    .blogs_container {
+        flex-wrap: wrap;
+        gap: 2%;
+
+
+    }
+
+    .left_blogs h2 {
+        padding: 40px 0;
+        font-size: 18px;
+    }
+
+    .right_top_blog h3 {
+        padding: 40px 0;
+    }
+
+    .right_bottom_blog h3 {
+        padding: 40px 0;
+    }
+
+    .client-section {
+        flex-wrap: wrap;
+    }
+
+    .inner_footer {
+        flex-wrap: wrap;
+        margin-top: 15px;
+        background-image: linear-gradient(to top, rgb(219, 221, 221), rgba(141, 190, 247, 0.863));
+    }
+
+    .inner_footer ul {
+        flex-wrap: wrap;
+        padding: 10px 10px;
+
+    }
+}
